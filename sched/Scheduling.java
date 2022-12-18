@@ -14,7 +14,6 @@ import java.util.Vector;
 public class Scheduling {
   private static int runtime = 1000;
   private static Vector<Process> processVector = new Vector<>();
-  private static Results result = new Results("null","null",0);
   private static String resultsFile = "C:/moss/sched/Summary-Results";
 
   private static void Init(String file) {
