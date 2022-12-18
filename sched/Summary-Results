@@ -1,9 +1,7 @@
-Scheduling Type: Batch (Nonpreemptive)
-Scheduling Name: First-Come First-Served
-Simulation Run Time: 1728
-Mean: 1100
-Standard Deviation: 510
-Process #	CPU Time	IO Blocking	CPU Completed	CPU Blocked
-0		576 (ms)	100 (ms)	576 (ms)	5 times
-1		576 (ms)	500 (ms)	576 (ms)	1 times
-2		576 (ms)	30 (ms)		576 (ms)	19 times
+Scheduling Type: Dynamic priority
+Scheduling Name: EDF
+Simulation Run Time: 23
+Process #	releaseTime	executionTime	deadline	period	cpuTime
+0					6		1				4		4		6		
+1					4		2				6		6		8		
+2					3		3				8		8		9		
